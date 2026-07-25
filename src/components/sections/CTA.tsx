@@ -190,7 +190,7 @@ export function CTA() {
               {status === 'error' && (
                 <div className="sm:col-span-2 flex items-center gap-2 rounded-xl border border-red-500/30 bg-red-500/10 px-4 py-3 text-sm text-red-300">
                   <AlertCircle className="h-4 w-4 shrink-0" />
-                  Something went wrong. Please try again or email hello@gentrix.ae.
+                  Something went wrong. Please try again or email sales@futureway.ae.
                 </div>
               )}
 
