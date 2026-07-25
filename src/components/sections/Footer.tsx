@@ -25,100 +25,150 @@ const socials = [
 export function Footer() {
   return (
     <footer className="relative overflow-hidden border-t border-white/10 bg-ink-950">
-      <div className="absolute -top-24 left-1/4 h-64 w-64 rounded-full bg-electric-500/10 blur-[120px]" aria-hidden="true" />
+      <div
+        className="absolute -top-24 left-1/4 h-64 w-64 rounded-full bg-electric-500/10 blur-[120px]"
+        aria-hidden="true"
+      />
 
       <div className="container-x relative px-5 sm:px-8 lg:px-12 py-16">
         <div className="grid gap-10 lg:grid-cols-5">
+
           {/* Brand */}
           <div className="lg:col-span-2 flex flex-col gap-5">
             <div className="flex items-center gap-3">
               <span className="grid h-10 w-10 place-items-center rounded-xl bg-gradient-to-br from-electric-500 to-volt-500 shadow-glow">
                 <Zap className="h-5 w-5 text-ink-950" strokeWidth={2.5} />
               </span>
+
               <div className="flex flex-col leading-none">
-                <span className="font-display text-xl font-bold text-white">Gentrix</span>
+                <span className="font-display text-xl font-bold text-white">
+                  Gentrix
+                </span>
                 <span className="text-[10px] font-medium uppercase tracking-[0.18em] text-ink-400">
                   by PTC
                 </span>
               </div>
             </div>
+
             <p className="max-w-sm text-sm text-ink-400 text-pretty">
-              Power Technology Company (PTC) is a UAE-based energy solutions provider. Gentrix is our
-              in-house EV charging brand, engineered for the Gulf and built for the future of mobility.
+              Power Technology Company (PTC) is a UAE-based energy solutions provider.
+              Gentrix is our in-house EV charging brand, engineered for the Gulf and
+              built for the future of mobility.
             </p>
 
-            {/* PTC logo placeholder */}
+            {/* PTC logo */}
             <div className="inline-flex items-center gap-2 rounded-xl glass px-4 py-2.5 self-start">
-              <span className="font-display text-sm font-bold text-white">PTC</span>
-              <span className="text-xs text-ink-400">Power Technology Company</span>
+              <span className="font-display text-sm font-bold text-white">
+                PTC
+              </span>
+              <span className="text-xs text-ink-400">
+                Power Technology Company
+              </span>
             </div>
 
+            {/* Contact */}
             <div className="flex flex-col gap-2 text-sm text-ink-400">
-              <a href="mailto:sales@futureway.ae" className="inline-flex items-center gap-2 hover:text-electric-400 transition-colors">
-                <Mail className="h-4 w-4" /> sales@futureway.ae
-              </a>
-              <a href="tel:+ +971 4 286 3363" className="inline-flex items-center gap-2 hover:text-electric-400 transition-colors">
-                <Phone className="h-4 w-4" />  +971 4 286 3363
-              </a>
-              <span className="inline-flex items-center gap-2">
-  <MapPin className="h-4 w-4" />
-  <span className="inline-flex items-center gap-2"> <MapPin className="h-4 w-4" /> No 21 7B Street - Umm Ramool - Dubai, United Arab Emirates </span>
-</div>
 
-          {/* Quick links */}
+              <a
+                href="mailto:sales@futureway.ae"
+                className="inline-flex items-center gap-2 hover:text-electric-400 transition-colors"
+              >
+                <Mail className="h-4 w-4" />
+                sales@futureway.ae
+              </a>
+
+              <a
+                href="tel:+97142863363"
+                className="inline-flex items-center gap-2 hover:text-electric-400 transition-colors"
+              >
+                <Phone className="h-4 w-4" />
+                +971 4 286 3363
+              </a>
+
+              <span className="flex items-start gap-2">
+                <MapPin className="h-4 w-4 mt-1 flex-shrink-0" />
+                <span>
+                  No 21 7B Street - Umm Ramool -
+                  <br />
+                  Dubai, United Arab Emirates
+                </span>
+              </span>
+
+            </div>
+          </div>
+
+
+          {/* Quick Links */}
           <div>
             <h3 className="font-display text-sm font-semibold uppercase tracking-[0.15em] text-white">
               Quick Links
             </h3>
+
             <ul className="mt-4 flex flex-col gap-2.5">
               {navLinks.map((l) => (
                 <li key={l.href}>
-                  <a href={l.href} className="text-sm text-ink-400 hover:text-electric-400 transition-colors">
+                  <a
+                    href={l.href}
+                    className="text-sm text-ink-400 hover:text-electric-400 transition-colors"
+                  >
                     {l.label}
                   </a>
                 </li>
               ))}
             </ul>
           </div>
+
 
           {/* Products */}
           <div>
             <h3 className="font-display text-sm font-semibold uppercase tracking-[0.15em] text-white">
               Products
             </h3>
+
             <ul className="mt-4 flex flex-col gap-2.5">
               {productLinks.map((l) => (
                 <li key={l.label}>
-                  <a href={l.href} className="text-sm text-ink-400 hover:text-electric-400 transition-colors">
+                  <a
+                    href={l.href}
+                    className="text-sm text-ink-400 hover:text-electric-400 transition-colors"
+                  >
                     {l.label}
                   </a>
                 </li>
               ))}
             </ul>
           </div>
+
 
           {/* Solutions */}
           <div>
             <h3 className="font-display text-sm font-semibold uppercase tracking-[0.15em] text-white">
               Solutions
             </h3>
+
             <ul className="mt-4 flex flex-col gap-2.5">
               {solutionLinks.map((l) => (
                 <li key={l.label}>
-                  <a href={l.href} className="text-sm text-ink-400 hover:text-electric-400 transition-colors">
+                  <a
+                    href={l.href}
+                    className="text-sm text-ink-400 hover:text-electric-400 transition-colors"
+                  >
                     {l.label}
                   </a>
                 </li>
               ))}
             </ul>
           </div>
+
         </div>
 
-        {/* Brand assets / partners */}
+
+        {/* Brand Assets */}
         <div className="mt-12 border-t border-white/10 pt-8">
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-ink-400 mb-4 text-center">
             Brands We Distribute
           </p>
+
           <div className="flex flex-wrap items-center justify-center gap-3">
             {brandAssets.map((brand) => (
               <a
@@ -132,10 +182,14 @@ export function Footer() {
           </div>
         </div>
 
+
+        {/* Bottom */}
         <div className="mt-12 flex flex-col sm:flex-row items-center justify-between gap-5 border-t border-white/10 pt-7">
+
           <p className="text-xs text-ink-500">
             © {new Date().getFullYear()} Power Technology Company. All rights reserved.
           </p>
+
           <div className="flex items-center gap-3">
             {socials.map((s) => (
               <a
@@ -148,7 +202,9 @@ export function Footer() {
               </a>
             ))}
           </div>
+
         </div>
+
       </div>
     </footer>
   );
