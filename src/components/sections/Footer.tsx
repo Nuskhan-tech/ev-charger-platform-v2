@@ -54,14 +54,14 @@ export function Footer() {
             </div>
 
             <div className="flex flex-col gap-2 text-sm text-ink-400">
-              <a href="mailto:hello@gentrix.ae" className="inline-flex items-center gap-2 hover:text-electric-400 transition-colors">
-                <Mail className="h-4 w-4" /> hello@gentrix.ae
+              <a href="mailto:sales@futureway.ae" className="inline-flex items-center gap-2 hover:text-electric-400 transition-colors">
+                <Mail className="h-4 w-4" /> sales@futureway.ae
               </a>
-              <a href="tel:+97140000000" className="inline-flex items-center gap-2 hover:text-electric-400 transition-colors">
-                <Phone className="h-4 w-4" /> +971 4 000 0000
+              <a href="tel:+ +971 4 286 3363" className="inline-flex items-center gap-2 hover:text-electric-400 transition-colors">
+                <Phone className="h-4 w-4" />  +971 4 286 3363
               </a>
               <span className="inline-flex items-center gap-2">
-                <MapPin className="h-4 w-4" /> Dubai, United Arab Emirates
+                <MapPin className="h-4 w-4" /> No 21 7B Street - Umm Ramool - Dubai, United Arab Emirates
               </span>
             </div>
           </div>
