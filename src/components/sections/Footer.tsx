@@ -61,14 +61,14 @@ export function Footer() {
                 <Phone className="h-4 w-4" />  +971 4 286 3363
               </a>
               <span className="inline-flex items-center gap-2">
-                <MapPin className="h-4 w-4" />
-              <span>
-                No 21 7B Street - Umm Ramool - 
-                 <br />
-                Dubai, United Arab Emirates
-              </span>
-              </span>
-          </div>
+  <MapPin className="h-4 w-4" />
+  <span>
+    No 21 7B Street - Umm Ramool - 
+    <br />
+    Dubai, United Arab Emirates
+  </span>
+</span>
+</div>
 
           {/* Quick links */}
           <div>
