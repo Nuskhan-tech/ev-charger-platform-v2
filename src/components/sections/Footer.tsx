@@ -62,12 +62,7 @@ export function Footer() {
               </a>
               <span className="inline-flex items-center gap-2">
   <MapPin className="h-4 w-4" />
-  <span>
-    No 21 7B Street - Umm Ramool - 
-    <br />
-    Dubai, United Arab Emirates
-  </span>
-</span>
+  <span className="inline-flex items-center gap-2"> <MapPin className="h-4 w-4" /> No 21 7B Street - Umm Ramool - Dubai, United Arab Emirates </span>
 </div>
 
           {/* Quick links */}
