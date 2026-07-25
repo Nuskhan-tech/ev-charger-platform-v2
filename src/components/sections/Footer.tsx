@@ -16,7 +16,7 @@ const solutionLinks = [
 ];
 
 const socials = [
-  { icon: Linkedin, href: '#', label: 'LinkedIn' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/company/futureway-technical-services-llc/posts/?feedView=all', label: 'LinkedIn' },
   { icon: Twitter, href: '#', label: 'Twitter' },
   { icon: Facebook, href: '#', label: 'Facebook' },
   { icon: Instagram, href: '#', label: 'Instagram' },
