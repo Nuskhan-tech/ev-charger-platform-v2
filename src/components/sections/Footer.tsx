@@ -16,14 +16,30 @@ const solutionLinks = [
 ];
 
 const socials = [
-{ 
-  icon: Linkedin, 
-  href: 'https://www.linkedin.com/company/futureway-technical-services-llc/posts/?feedView=all', 
-  label: 'LinkedIn',
-  target: '_blank'
-},  { icon: Twitter, href: '#', label: 'Twitter' },
-  { icon: Facebook, href: '#', label: 'Facebook' },
-  { icon: Instagram, href: '#', label: 'Instagram' },
+  {
+    icon: Linkedin,
+    href: 'https://www.linkedin.com/company/futureway-technical-services-llc/posts/?feedView=all',
+    label: 'LinkedIn',
+    target: '_blank',
+  },
+  {
+    icon: Twitter,
+    href: 'https://twitter.com',
+    label: 'Twitter',
+    target: '_blank',
+  },
+  {
+    icon: Facebook,
+    href: 'https://facebook.com',
+    label: 'Facebook',
+    target: '_blank',
+  },
+  {
+    icon: Instagram,
+    href: 'https://instagram.com',
+    label: 'Instagram',
+    target: '_blank',
+  },
 ];
 
 export function Footer() {
@@ -194,18 +210,20 @@ export function Footer() {
             © {new Date().getFullYear()} Power Technology Company. All rights reserved.
           </p>
 
-          <div className="flex items-center gap-3">
-            {socials.map((s) => (
-              <a
-                key={s.label}
-                href={s.href}
-                aria-label={s.label}
-                className="grid h-9 w-9 place-items-center rounded-full glass text-ink-300 hover:text-electric-400 hover:border-electric-400/30 transition-colors"
-              >
-                <s.icon className="h-4 w-4" />
-              </a>
-            ))}
-          </div>
+         <div className="flex items-center gap-3">
+  {socials.map((s) => (
+    <a
+      key={s.label}
+      href={s.href}
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label={s.label}
+      className="grid h-9 w-9 place-items-center rounded-full glass text-ink-300 hover:text-electric-400 hover:border-electric-400/30 transition-colors"
+    >
+      <s.icon className="h-4 w-4" />
+    </a>
+  ))}
+</div>
 
         </div>
 
