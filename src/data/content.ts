@@ -528,7 +528,7 @@ export type BrandAsset = {
 
 export const brandAssets: BrandAsset[] = [
   { name: 'Gentrix', logoText: 'Gentrix', url: '#' },
-  { name: 'PTC', logoText: 'PTC', url: '#' },
+  { name: 'Hardhitter', logoText: 'Hardhitter', url: '#' },
   { name: 'ABB', logoText: 'ABB', url: '#' },
   { name: 'Schneider Electric', logoText: 'Schneider', url: '#' },
   { name: 'ChargePoint', logoText: 'ChargePoint', url: '#' },
