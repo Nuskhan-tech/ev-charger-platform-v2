@@ -16,8 +16,12 @@ const solutionLinks = [
 ];
 
 const socials = [
-  { icon: Linkedin, href: 'https://www.linkedin.com/company/futureway-technical-services-llc/posts/?feedView=all', label: 'LinkedIn',target: '_blank' },
-  { icon: Twitter, href: '#', label: 'Twitter' },
+{ 
+  icon: Linkedin, 
+  href: 'https://www.linkedin.com/company/futureway-technical-services-llc/posts/?feedView=all', 
+  label: 'LinkedIn',
+  target: '_blank'
+},  { icon: Twitter, href: '#', label: 'Twitter' },
   { icon: Facebook, href: '#', label: 'Facebook' },
   { icon: Instagram, href: '#', label: 'Instagram' },
 ];
