@@ -71,7 +71,7 @@ export function Footer() {
             </div>
 
             <p className="max-w-sm text-sm text-ink-400 text-pretty">
-              Power Technology Company (PTC) is a UAE-based energy solutions provider.
+              FutureWay is a Dubai based energy solutions provider.
               Gentrix is our in-house EV charging brand, engineered for the Gulf and
               built for the future of mobility.
             </p>
@@ -79,10 +79,10 @@ export function Footer() {
             {/* PTC logo */}
             <div className="inline-flex items-center gap-2 rounded-xl glass px-4 py-2.5 self-start">
               <span className="font-display text-sm font-bold text-white">
-                PTC
+                FUTUREWAY
               </span>
               <span className="text-xs text-ink-400">
-                Power Technology Company
+                Part of the Prakash Trading Company (PTC)
               </span>
             </div>
 
@@ -207,7 +207,7 @@ export function Footer() {
         <div className="mt-12 flex flex-col sm:flex-row items-center justify-between gap-5 border-t border-white/10 pt-7">
 
           <p className="text-xs text-ink-500">
-            © {new Date().getFullYear()} Power Technology Company. All rights reserved.
+            © {new Date().getFullYear()} FutureWay Technical Services LLC. All rights reserved.
           </p>
 
          <div className="flex items-center gap-3">
