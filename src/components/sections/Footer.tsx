@@ -30,13 +30,13 @@ const socials = [
   },
   {
     icon: Facebook,
-    href: 'https://facebook.com',
+    href: 'https://www.facebook.com/p/Futureway-Technical-services-LLC-100091559032558/',
     label: 'Facebook',
     target: '_blank',
   },
   {
     icon: Instagram,
-    href: 'https://instagram.com',
+    href: 'https://www.instagram.com/futureway_uae/',
     label: 'Instagram',
     target: '_blank',
   },
