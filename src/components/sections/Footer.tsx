@@ -65,7 +65,7 @@ export function Footer() {
                   Gentrix
                 </span>
                 <span className="text-[10px] font-medium uppercase tracking-[0.18em] text-ink-400">
-                  by PTC
+                  by FutureWay
                 </span>
               </div>
             </div>
