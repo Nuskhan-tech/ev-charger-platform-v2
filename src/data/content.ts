@@ -52,7 +52,7 @@ export const products: Product[] = [
     features: ['Type 2 connector', 'RFID & app start', 'IP55 weatherproof', 'Dynamic load balancing'],
     image:
       'https://images.pexels.com/photos/110844/pexels-photo-110844.jpeg?auto=compress&cs=tinysrgb&w=900',
-    datasheet: 'https://chargetronix.com/wp-content/uploads/2024/02/GZ_TP5-60-480-Installation-Manual.pdf',
+    datasheet: '#',
     dimensions: '400 × 300 × 150 mm',
     weight: '4.5 kg',
     specs: [
@@ -115,7 +115,7 @@ export const products: Product[] = [
     features: ['CCS2 + CHAdeMO', 'Liquid-cooled power module', '7" touch display', 'Ambient rated to 55°C'],
     image:
       'https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&w=900',
-    datasheet: '#',
+    datasheet: 'https://chargetronix.com/wp-content/uploads/2024/02/GZ_TP5-60-480-Installation-Manual.pdf',
     featured: true,
     dimensions: '600 × 400 × 1800 mm',
     weight: '85 kg',
